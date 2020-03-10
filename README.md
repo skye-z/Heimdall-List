@@ -1,5 +1,9 @@
 # Heimdall 中国境内镜像源
 
+## 链接映射
+
+https://apps.heimdall.site/list => https://gitee.com/sKai-Zhang/Heimdall-List/raw/master/list.json
+
 ## 列表链接识别
 
 采用正则表达式 `https://apps.heimdall.site/files/[^\s]*.zip`
