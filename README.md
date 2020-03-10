@@ -1,5 +1,18 @@
 # Heimdall 中国境内镜像源
 
+[![Heimdall_Banner](https://i.imgur.com/iuV8w3y.png)](https://heimdall.site)
+
+[![Discord](https://img.shields.io/discord/354974912613449730.svg)](https://discord.gg/CCjHKn4)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/heimdall.svg)](https://hub.docker.com/r/linuxserver/heimdall/)
+[![firsttimersonly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
+[![Paypal](https://heimdall.site/img/paypaldonate.svg)](https://www.paypal.me/heimdall)
+
+___
+
+官方网站 - https://heimdall.site
+原始项目 - https://github.com/linuxserver/Heimdall
+___
+
 ## 链接映射
 
 https://apps.heimdall.site/list => https://gitee.com/sKai-Zhang/Heimdall-List/raw/master/list.json
