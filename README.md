@@ -1,4 +1,4 @@
-# Heimdall 中国境内镜像源(修改版)
+# Heimdall 大中华镜像源(修改版)
 
 [![Heimdall_Banner](https://i.imgur.com/iuV8w3y.png)](https://heimdall.site)
 
