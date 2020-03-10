@@ -1,4 +1,4 @@
-# Heimdall 中国境内镜像源
+# Heimdall 中国境内镜像源(修改版)
 
 [![Heimdall_Banner](https://i.imgur.com/iuV8w3y.png)](https://heimdall.site)
 
@@ -10,16 +10,21 @@
 ___
 
 官方网站 - https://heimdall.site
+
 原始项目 - https://github.com/linuxserver/Heimdall
 ___
 
-## 链接映射
+## 改动描述
+
+为保障应用初始化, 我将
 
 https://apps.heimdall.site/list => https://gitee.com/sKai-Zhang/Heimdall-List/raw/master/list.json
 
-## 列表链接识别
+链接更换后将不再从Github获取数据包, 而是从当前镜像项目中获取
 
-采用正则表达式 `https://apps.heimdall.site/files/[^\s]*.zip`
+### 筛选方式
+
+我们需要先访问 `https://apps.heimdall.site/list`, 获取JSON内容, 将内容通过正则表达式 `https://apps.heimdall.site/files/[^\s]*.zip`, 进行筛选, 最后将所有数据包下载至当前项目.
 
 ## 已收录应用包
 
@@ -237,5 +242,3 @@ https://apps.heimdall.site/list => https://gitee.com/sKai-Zhang/Heimdall-List/ra
 - 50052bb8aa17c255aa40f025a2a52980f00e5c98/files.zip
 - 32a2bfdd58b38cd145b79d43f1ca21b786b1921e/files.zip
 - f0cc2b946e0d95559f2572e1e6aa87c797c30528/files.zip
-
-
