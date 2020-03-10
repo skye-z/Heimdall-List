@@ -36,6 +36,24 @@ https://apps.heimdall.site/list => https://gitee.com/sKai-Zhang/Heimdall-List/ra
 
 容器下载部署后请勿运行, 先将容器中的app目录挂载出来, 然后替换中的SupportedApps.php文件, 若您已经运行了, 请执行 `/init` 重新执行初始化.
 
+## 如何协作
+
+这里说下更新步骤
+
+第一步: 检查 *SupportedApps.php* 文件是否有更新
+
+第二步: 检查 *https://apps.heimdall.site/list 相较 list.json* 文件是否有更新
+
+第三步: 筛选出新增或修改的资源包
+
+第四步: 下载资源包并以链接中的md5命名
+
+第五步: 放至项目中的 *files* 目录下
+
+第六步: 修改 *list.json* 文件中的资源包地址
+
+第七步: 发起pull请求
+
 ## 已收录应用包
 
 212个
