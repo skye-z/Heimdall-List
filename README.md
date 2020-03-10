@@ -16,7 +16,7 @@ ___
 
 ## 改动描述
 
-为保障应用初始化, 我将
+为保障应用初始化, 我将 `/app/SupportedApps.php`文件中的
 
 https://apps.heimdall.site/list => https://gitee.com/sKai-Zhang/Heimdall-List/raw/master/list.json
 
@@ -25,6 +25,16 @@ https://apps.heimdall.site/list => https://gitee.com/sKai-Zhang/Heimdall-List/ra
 ### 筛选方式
 
 我们需要先访问 `https://apps.heimdall.site/list`, 获取JSON内容, 将内容通过正则表达式 `https://apps.heimdall.site/files/[^\s]*.zip`, 进行筛选, 最后将所有数据包下载至当前项目.
+
+## 使用方式
+
+### 常规部署
+
+替换app目录中的SupportedApps.php文件即可
+
+### Docker部署
+
+容器下载部署后请勿运行, 先将容器中的app目录挂载出来, 然后替换中的SupportedApps.php文件, 若您已经运行了, 请执行 `/init` 重新执行初始化.
 
 ## 已收录应用包
 
